@@ -23,7 +23,7 @@ function Resetpassword() {
 
     try {
       const response = await axios.post(
-        `https://password-reset-gd3w.onrender.com/user/reset-password/${token}`,
+        `https://password-reset-be-athv.onrender.com/user/reset-password/${token}`,
         {
           newPassword: confirmpassword,
         }

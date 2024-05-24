@@ -13,7 +13,7 @@ function Forgotpassword() {
         e.preventDefault();
         console.log(email)
         try {
-          const response = await axios.post("https://password-reset-gd3w.onrender.com/user/forgot-password", {
+          const response = await axios.post("https://password-reset-be-athv.onrender.com/user/forgot-password", {
             email,
           });
           if (response.status === 200) {

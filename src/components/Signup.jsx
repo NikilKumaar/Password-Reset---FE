@@ -22,7 +22,7 @@ function Signup()
     console.log(password)
     console.log(email);
     try {
-      const response = await axios.post("https://password-reset-gd3w.onrender.com/user/register", {
+      const response = await axios.post("https://password-reset-be-athv.onrender.com/user/register", {
         firstname,
         lastname,
         email,
