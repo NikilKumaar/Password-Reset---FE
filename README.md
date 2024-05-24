@@ -1,8 +1,8 @@
-# React + Vite
+# PASSWORD RESET FRONTEND APPLICATION
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This codebase is a React application that provides user authentication features like signing up, signing in, forgot password, and resetting password. It utilizes React Router for navigation, Axios for handling API requests, and React Toastify for displaying toast notifications. The application follows a client-server architecture, with routes for home, signup, signin, forgot password, and reset password functionalities.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## NETLIFY DEPLOYED URL
+
+https://password-resetflow-frontend.netlify.app
